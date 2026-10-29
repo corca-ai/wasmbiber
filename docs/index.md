@@ -11,3 +11,5 @@ Contributors should read [architecture](architecture.md), [development](developm
 and [testing](testing.md). Runtime maintenance is covered by [build](build.md),
 [performance](performance.md) and [distribution](distribution.md).
 [Documentation rules](documentation.md) distinguish current contracts from evidence.
+
+[Public releases](releasing.md) owns publication preparation and the maintainer checklist.

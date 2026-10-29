@@ -21,6 +21,8 @@ docker save wasmbiber-toolchain:5.0.4 | gzip > .cache/toolchain.tar.gz
 bash engine/container-build.sh
 ```
 
+Public releases include this exported image and its SHA-256 checksum; download
+the matching asset before building on a clean machine. See [public releases](releasing.md).
 On a new machine the build script loads `.cache/toolchain.tar.gz` if the image
 is absent. It checks the image identity and package inventory before building.
 The compiler image is a development artifact, separate from the SDK/runtime

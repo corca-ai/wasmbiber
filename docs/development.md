@@ -22,8 +22,12 @@ and [distribution](distribution.md) for package qualification.
 GitHub's SDK workflow checks build, lint, unit tests and local document links on
 ordinary branches. It does not claim runtime qualification without generated
 assets. The packaging gate requires native/browser/benchmark receipts for the
-current SDK and runtime. Full local document checks additionally use the `awiki`
+current SDK and runtime. The optional `bun run check:docs:graph` uses the `awiki`
 CLI for graph connectivity. Browser qualification needs `agent-browser` on
 PATH and its installed Chrome; it is a development tool, not a runtime
 dependency. The first qualification used agent-browser 0.27.0; the report records
 the actual browser version.
+
+For public release preparation and clean-machine reconstruction, see
+[public releases](releasing.md). Install the optional browser test tool with
+`npm install --global agent-browser@0.27.0`, then `agent-browser install`.

@@ -7,6 +7,9 @@ const files = [
   'README.md',
   'AGENTS.md',
   'THIRD_PARTY_NOTICES.md',
+  'CONTRIBUTING.md',
+  'SECURITY.md',
+  'CHANGELOG.md',
   ...(await readdir(resolve(root, 'docs')))
     .filter((x) => x.endsWith('.md'))
     .map((x) => `docs/${x}`),

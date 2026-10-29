@@ -7,7 +7,7 @@ trap 'rm -rf "$bundle"' EXIT
 mkdir -p "$bundle/engine" "$bundle/archives" "$bundle/licenses/debian" "$bundle/installed-perl"
 cp -a engine/. "$bundle/engine/"
 mkdir -p "$bundle/sdk-source"
-for item in src scripts tests docs examples .github engine package.json bun.lock tsconfig.json biome.json .mise.toml .gitignore .gitattributes README.md AGENTS.md LICENSE THIRD_PARTY_NOTICES.md; do
+for item in src scripts tests docs examples .github engine package.json bun.lock tsconfig.json biome.json .mise.toml .gitignore .gitattributes README.md CONTRIBUTING.md SECURITY.md CHANGELOG.md AGENTS.md LICENSE THIRD_PARTY_NOTICES.md; do
  cp -a "/work/$item" "$bundle/sdk-source/"
 done
 ln -sf AGENTS.md "$bundle/sdk-source/CLAUDE.md"

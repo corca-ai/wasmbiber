@@ -42,7 +42,8 @@ bun run package
 Native builds run in the locked Linux amd64 Docker toolchain. On Apple Silicon,
 use an amd64 build host as described in [building](docs/build.md). Runtime
 artifacts are generated, not checked into Git. `assets/` contains a complete
-local build after the build command finishes. Publishing is intentionally off.
+local build after the build command finishes. Registry publishing is intentionally off. Downloadable GitHub release bundles
+are prepared with `bun run release:prepare`; see [public releases](docs/releasing.md).
 
 Contributors should read [AGENTS.md](AGENTS.md).
 
@@ -54,3 +55,6 @@ The TypeScript SDK is MIT-licensed. Runtime components and build support retain
 their own licenses, including Artistic, GPL/AGPL and Unicode terms. See
 [third-party notices](THIRD_PARTY_NOTICES.md); runtime bundles include a matching
 corresponding-source archive.
+
+For contributions, see [CONTRIBUTING.md](CONTRIBUTING.md). For security reporting,
+see [SECURITY.md](SECURITY.md). Release changes are in [CHANGELOG.md](CHANGELOG.md).

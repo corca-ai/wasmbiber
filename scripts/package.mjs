@@ -78,6 +78,23 @@ for (const name of [
     `Corresponding source is stale: ${name}`,
   )
 }
+// Check the complete public source tree, not only selected engine recipes.
+const sourceTree = await mkdtemp(resolve(tmpdir(), 'wasmbiber-source-check-'))
+try {
+  await exec('tar', ['-xzf', resolve(out, sourceName), '-C', sourceTree])
+  const tracked = (await exec('git', ['ls-files', '-z'], { cwd: root })).stdout
+    .split('\0')
+    .filter((name) => name && name !== 'CLAUDE.md')
+  for (const name of tracked) {
+    assert.deepEqual(
+      await readFile(resolve(sourceTree, 'sdk-source', name)),
+      await readFile(resolve(root, name)),
+      `Corresponding SDK source is stale: ${name}`,
+    )
+  }
+} finally {
+  await rm(sourceTree, { recursive: true, force: true })
+}
 const source = await readFile(resolve(out, sourceName))
 const hash = (bytes) => createHash('sha256').update(bytes).digest('hex')
 await cp(resolve(out, sourceName), resolve(root, 'assets', sourceName))

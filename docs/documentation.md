@@ -5,8 +5,9 @@ AGENTS links contributor rules. Keep contracts, procedures and architecture in
 their owning guide and link related topics. Do not copy transient measurements
 or test counts into the API contract.
 
-Commands, public types and example imports must match code. Documentation checks
-run `awiki lint -root docs`; also verify local file links and runnable examples.
+Commands, public types and example imports must match code. Portable documentation checks run `bun run check:docs` for local links.
+Maintainers with the optional `awiki` CLI also run `bun run check:docs:graph`
+for graph connectivity; it is not required for a clean SDK checkout. Verify runnable examples as well.
 [Development](development.md) lists the gates.
 
 Raw measurements, benchmark baselines, logs and dated experiment reports belong
