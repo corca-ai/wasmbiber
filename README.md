@@ -1,5 +1,9 @@
 # wasmbiber
 
+[Source](https://github.com/corca-ai/wasmbiber) ·
+[Releases](https://github.com/corca-ai/wasmbiber/releases) ·
+[Issues](https://github.com/corca-ai/wasmbiber/issues)
+
 Run Biber locally in a browser Worker or Node worker thread. The actual Biber
 2.22 Perl implementation produces `.bbl` output from a biblatex `.bcf` and local
 bibliography files. This is an independent library: it has no CorTeX, wasmtex or

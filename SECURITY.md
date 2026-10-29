@@ -1,9 +1,7 @@
 # Security
 
-Do not put credentials, private documents or an exploit against a deployed host
-in a public issue. Until a repository security-advisory channel is configured,
-report non-sensitive symptoms publicly and request a private reporting channel
-before sharing exploit details. No security email address has been provisioned.
+Report vulnerabilities privately through [GitHub security advisories](https://github.com/corca-ai/wasmbiber/security/advisories/new).
+Do not put credentials, private documents or exploit details in public issues.
 
 Only the latest published version is maintained. This is an early release;
 there is no long-term support branch or promised response SLA.

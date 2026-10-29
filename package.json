@@ -53,5 +53,13 @@
     "@biomejs/biome": "2.4.3",
     "@types/node": "24.13.2",
     "typescript": "5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corca-ai/wasmbiber.git"
+  },
+  "homepage": "https://github.com/corca-ai/wasmbiber#readme",
+  "bugs": {
+    "url": "https://github.com/corca-ai/wasmbiber/issues"
   }
 }
