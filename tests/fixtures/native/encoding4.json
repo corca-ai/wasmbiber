@@ -1,0 +1,4 @@
+{
+  "exitCode": 2,
+  "log": "INFO - Reading 'encoding4.bcf'\nINFO - Using all citekeys in bib section 0\nINFO - Processing section 0\nINFO - Looking for bibtex file 'encoding4.bib' for section 0\nERROR - Data file 'encoding4.bib' cannot be read in encoding 'utf8': utf8 \"\\xAF\" does not map to Unicode at /usr/share/perl5/File/Slurper.pm line 59.\n\nINFO - ERRORS: 1\n"
+}

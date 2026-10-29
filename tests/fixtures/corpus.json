@@ -1,0 +1,203 @@
+[
+  {
+    "name": "annotations",
+    "sources": ["annotations.bib"]
+  },
+  {
+    "name": "basic-misc",
+    "sources": ["examples.bib"]
+  },
+  {
+    "name": "biblatexml",
+    "sources": ["biblatexml.bltxml"]
+  },
+  {
+    "name": "bibtex-aliases",
+    "sources": ["bibtex-aliases.bib"]
+  },
+  {
+    "name": "crossrefs",
+    "sources": ["crossrefs.bib"]
+  },
+  {
+    "name": "datalists",
+    "sources": ["datalists.bib", "datalists.bltxml"]
+  },
+  {
+    "name": "dateformats",
+    "sources": ["dateformats.bib"]
+  },
+  {
+    "name": "dm-constraints",
+    "sources": ["dm-constraints.bib"]
+  },
+  {
+    "name": "encoding1",
+    "sources": ["encoding1.bib"]
+  },
+  {
+    "name": "encoding2",
+    "sources": ["encoding2.bib"]
+  },
+  {
+    "name": "encoding3",
+    "sources": ["encoding3.bib"]
+  },
+  {
+    "name": "encoding4",
+    "sources": ["encoding4.bib"]
+  },
+  {
+    "name": "encoding5",
+    "sources": ["encoding5.bib"]
+  },
+  {
+    "name": "encoding6",
+    "sources": ["encoding6.bib"]
+  },
+  {
+    "name": "extradate",
+    "sources": ["extradate.bib"]
+  },
+  {
+    "name": "extratitle",
+    "sources": ["extratitle.bib"]
+  },
+  {
+    "name": "extratitleyear",
+    "sources": ["extratitleyear.bib"]
+  },
+  {
+    "name": "full-bbl",
+    "sources": ["full-bbl.bib"]
+  },
+  {
+    "name": "general",
+    "sources": ["examples.bib"]
+  },
+  {
+    "name": "labelalpha",
+    "sources": ["labelalpha.bib"]
+  },
+  {
+    "name": "labelalphaname",
+    "sources": ["labelalphaname.bib"]
+  },
+  {
+    "name": "maps",
+    "sources": ["maps.bib"]
+  },
+  {
+    "name": "names",
+    "sources": ["names.bib"]
+  },
+  {
+    "name": "names_x",
+    "sources": ["names_x.bib"]
+  },
+  {
+    "name": "options",
+    "sources": ["options.bib"]
+  },
+  {
+    "name": "related",
+    "sources": ["related.bib"]
+  },
+  {
+    "name": "sections-complex",
+    "sources": ["labelalpha.bib"]
+  },
+  {
+    "name": "sections",
+    "sources": [
+      "sections1.bib",
+      "sections2.bib",
+      "sections3.bib",
+      "sections4.bib"
+    ]
+  },
+  {
+    "name": "set-dynamic",
+    "sources": ["sets.bib"]
+  },
+  {
+    "name": "set-legacy",
+    "sources": ["sets.bib"]
+  },
+  {
+    "name": "set-static",
+    "sources": ["sets.bib"]
+  },
+  {
+    "name": "skips",
+    "sources": ["skips.bib"]
+  },
+  {
+    "name": "skipsg",
+    "sources": ["skipsg.bib"]
+  },
+  {
+    "name": "sort-case",
+    "sources": ["sort-case.bib"]
+  },
+  {
+    "name": "sort-complex",
+    "sources": ["sort.bib"]
+  },
+  {
+    "name": "sort-names",
+    "sources": ["sort-names.bib"]
+  },
+  {
+    "name": "sort-order",
+    "sources": ["sort-order.bib"]
+  },
+  {
+    "name": "sort-uc",
+    "sources": ["sort-uc.bib"]
+  },
+  {
+    "name": "translit",
+    "sources": ["translit.bib"]
+  },
+  {
+    "name": "truncation",
+    "sources": ["truncation.bib"]
+  },
+  {
+    "name": "uniqueness-nameparts",
+    "sources": ["uniqueness-nameparts.bib"]
+  },
+  {
+    "name": "uniqueness1",
+    "sources": ["uniqueness1.bib"]
+  },
+  {
+    "name": "uniqueness2",
+    "sources": ["uniqueness2.bib"]
+  },
+  {
+    "name": "uniqueness3",
+    "sources": ["uniqueness3.bib"]
+  },
+  {
+    "name": "uniqueness4",
+    "sources": ["uniqueness4.bib"]
+  },
+  {
+    "name": "uniqueness5",
+    "sources": ["uniqueness5.bib"]
+  },
+  {
+    "name": "uniqueness6",
+    "sources": ["uniqueness6.bib"]
+  },
+  {
+    "name": "uniqueness7",
+    "sources": ["uniqueness7.bib"]
+  },
+  {
+    "name": "xdata",
+    "sources": ["xdata.bib", "xdata.bltxml"]
+  }
+]

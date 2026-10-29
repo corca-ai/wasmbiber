@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "platform": "linux/amd64",
+  "tag": "wasmbiber-toolchain:5.0.4",
+  "imageId": "sha256:458c6d80a90723ca7fd0db867e26c6c2db49378ff9e9cf98f535b9bfdbba53db"
+}

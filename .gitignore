@@ -1,0 +1,9 @@
+node_modules/
+dist/
+assets/*
+!assets/README.md
+.cache/
+local-evaluation/
+*.tgz
+__pycache__/
+.DS_Store

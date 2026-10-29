@@ -1,0 +1,4 @@
+{
+  "exitCode": 0,
+  "log": "INFO - Reading 'translit.bcf'\nINFO - Using all citekeys in bib section 0\nINFO - Processing section 0\nINFO - Looking for bibtex file 'translit.bib' for section 0\nINFO - LaTeX decoding ...\nINFO - Found BibTeX data source 'translit.bib'\nINFO - Overriding locale 'sa-IN' defaults 'variable = shifted' with 'variable = non-ignorable'\nINFO - Overriding locale 'sa-IN' defaults 'normalization = NFD' with 'normalization = prenormalized'\nINFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'sa-IN'\nINFO - Writing 'translit.bbl' with encoding 'UTF-8'\nINFO - Output to translit.bbl\n"
+}

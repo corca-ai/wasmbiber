@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# Golden outputs, non-UTF-8 inputs and upstream patch context are byte contracts.
+tests/fixtures/** -text -whitespace
+engine/vendor/** -text -whitespace

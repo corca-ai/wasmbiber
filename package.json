@@ -1,0 +1,51 @@
+{
+  "name": "wasmbiber",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "SEE LICENSE IN THIRD_PARTY_NOTICES.md",
+  "description": "Offline Biber for browser and Node workers, with verified runtime assets",
+  "engines": {
+    "node": ">=24"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js"
+    },
+    "./node": {
+      "types": "./dist/src/node.d.ts",
+      "import": "./dist/src/node.js"
+    }
+  },
+  "files": [
+    "dist/src",
+    "assets",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "docs",
+    "README.md",
+    "examples",
+    "src",
+    "engine",
+    "AGENTS.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "test": "node --test dist/tests/*.test.js",
+    "format": "biome check --write src tests scripts examples",
+    "lint": "biome check src tests scripts examples",
+    "verify": "bun run build && bun run lint && bun run test && bun run test:runtime && bun run check:docs",
+    "test:runtime": "node scripts/qualify.mjs",
+    "benchmark": "node scripts/benchmark.mjs",
+    "test:browser": "node scripts/browser-test.mjs",
+    "check:docs": "node scripts/check-doc-links.mjs && awiki lint -root docs",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.3",
+    "@types/node": "24.13.2",
+    "typescript": "5.9.3"
+  }
+}

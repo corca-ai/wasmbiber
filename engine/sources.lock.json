@@ -1,0 +1,197 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "name": "Class-XSAccessor",
+      "version": "1.19",
+      "url": "https://cpan.metacpan.org/authors/id/S/SM/SMUELLER/Class-XSAccessor-1.19.tar.gz",
+      "archive": "Class-XSAccessor-1.19.tar.gz",
+      "sha256": "99c56b395f1239af19901f2feeb125d9ecb4e351a0d80daa9529211a4700a6f2",
+      "bytes": 80786
+    },
+    {
+      "name": "Clone",
+      "version": "0.46",
+      "url": "https://cpan.metacpan.org/authors/id/G/GA/GARU/Clone-0.46.tar.gz",
+      "archive": "Clone-0.46.tar.gz",
+      "sha256": "aadeed5e4c8bd6bbdf68c0dd0066cb513e16ab9e5b4382dc4a0aafd55890697b",
+      "bytes": 138722
+    },
+    {
+      "name": "DateTime",
+      "version": "1.65",
+      "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-1.65.tar.gz",
+      "archive": "DateTime-1.65.tar.gz",
+      "sha256": "0bfda7ff0253fb3d88cf4bdb5a14afb8cea24d147975d5bdf3c88b40e7ab140e",
+      "bytes": 324382
+    },
+    {
+      "name": "List-MoreUtils-XS",
+      "version": "0.430",
+      "url": "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-XS-0.430.tar.gz",
+      "archive": "List-MoreUtils-XS-0.430.tar.gz",
+      "sha256": "e8ce46d57c179eecd8758293e9400ff300aaf20fefe0a9d15b9fe2302b9cb242",
+      "bytes": 163827
+    },
+    {
+      "name": "List-SomeUtils-XS",
+      "version": "0.58",
+      "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-XS-0.58.tar.gz",
+      "archive": "List-SomeUtils-XS-0.58.tar.gz",
+      "sha256": "4f9e4d2622481b79cc298e8e29de8a30943aff9f4be7992c0ebb7b22e5b4b297",
+      "bytes": 94190
+    },
+    {
+      "name": "Package-Stash-XS",
+      "version": "0.30",
+      "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Package-Stash-XS-0.30.tar.gz",
+      "archive": "Package-Stash-XS-0.30.tar.gz",
+      "sha256": "26bad65c1959c57379b3e139dc776fbec5f702906617ef27cdc293ddf1239231",
+      "bytes": 168584
+    },
+    {
+      "name": "Params-Util",
+      "version": "1.102",
+      "url": "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Params-Util-1.102.tar.gz",
+      "archive": "Params-Util-1.102.tar.gz",
+      "sha256": "499bb1b482db24fda277a51525596ad092c2bd51dd508fa8fec2e9f849097402",
+      "bytes": 194986
+    },
+    {
+      "name": "Params-Validate-XS",
+      "version": "1.31",
+      "url": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-Validate-1.31.tar.gz",
+      "archive": "Params-Validate-XS-1.31.tar.gz",
+      "sha256": "1bf2518ef2c4869f91590e219f545c8ef12ed53cf313e0eb5704adf7f1b2961e",
+      "bytes": 213438
+    },
+    {
+      "name": "PerlIO-utf8_strict",
+      "version": "0.010",
+      "url": "https://cpan.metacpan.org/authors/id/L/LE/LEONT/PerlIO-utf8_strict-0.010.tar.gz",
+      "archive": "PerlIO-utf8_strict-0.010.tar.gz",
+      "sha256": "bcd2848b72df290b5e984fae8b1a6ca96f6d072003cf222389a8c9e8e1c570cd",
+      "bytes": 141471
+    },
+    {
+      "name": "Ref-Util-XS",
+      "version": "0.117",
+      "url": "https://cpan.metacpan.org/authors/id/X/XS/XSAWYERX/Ref-Util-XS-0.117.tar.gz",
+      "archive": "Ref-Util-XS-0.117.tar.gz",
+      "sha256": "fb64c5a823787f6600257918febd9fbc6f0305936fc3287b81a30c099b65633c",
+      "bytes": 71565
+    },
+    {
+      "name": "Sort-Key",
+      "version": "1.33",
+      "url": "https://cpan.metacpan.org/authors/id/S/SA/SALVA/Sort-Key-1.33.tar.gz",
+      "archive": "Sort-Key-1.33.tar.gz",
+      "sha256": "ed6a4ccfab094c9cd164f564024e98bd21d94f4312ccac4d6246d22b34081acf",
+      "bytes": 58324
+    },
+    {
+      "name": "Sub-Identify",
+      "version": "0.14",
+      "url": "https://cpan.metacpan.org/authors/id/R/RG/RGARCIA/Sub-Identify-0.14.tar.gz",
+      "archive": "Sub-Identify-0.14.tar.gz",
+      "sha256": "068d272086514dd1e842b6a40b1bedbafee63900e5b08890ef6700039defad6f",
+      "bytes": 53135
+    },
+    {
+      "name": "Sub-Name",
+      "version": "0.27",
+      "url": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Sub-Name-0.27.tar.gz",
+      "archive": "Sub-Name-0.27.tar.gz",
+      "sha256": "ecf36fba1c47ca93e1daa394968ed39c4186867459d9cd173c421e2b972043e8",
+      "bytes": 157643
+    },
+    {
+      "name": "Text-CSV_XS",
+      "version": "1.53",
+      "url": "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.53.tgz",
+      "archive": "Text-CSV_XS-1.53.tar.gz",
+      "sha256": "ba3231610fc755a69e14eb4a3c6d8cce46cc4fd32853777a6c9ce485a8878b42",
+      "bytes": 273211
+    },
+    {
+      "name": "Variable-Magic",
+      "version": "0.63",
+      "url": "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Variable-Magic-0.63.tar.gz",
+      "archive": "Variable-Magic-0.63.tar.gz",
+      "sha256": "ba4083b2c31ff2694f2371333d554c826aaf24b4d98d03e48b5b4a43a2a0e679",
+      "bytes": 78851
+    },
+    {
+      "name": "XString",
+      "version": "0.005",
+      "url": "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/XString-0.005.tar.gz",
+      "archive": "XString-0.005.tar.gz",
+      "sha256": "f247f55c19aee6ba4a1ae73c0804259452e02ea85a9be07f8acf700a5138f884",
+      "bytes": 134507
+    },
+    {
+      "name": "autovivification",
+      "version": "0.18",
+      "url": "https://cpan.metacpan.org/authors/id/V/VP/VPIT/autovivification-0.18.tar.gz",
+      "archive": "autovivification-0.18.tar.gz",
+      "sha256": "2d99975685242980d0a9904f639144c059d6ece15899efde4acb742d3253f105",
+      "bytes": 55854
+    },
+    {
+      "name": "Text-BibTeX",
+      "version": "0.89",
+      "url": "https://cpan.metacpan.org/authors/id/A/AM/AMBS/Text-BibTeX-0.89.tar.gz",
+      "archive": "Text-BibTeX-0.89.tar.gz",
+      "sha256": "88a78ebf088ec7502f401c5a2b138c862cf5458534b773223bbf3aaf41224196",
+      "bytes": 301944
+    },
+    {
+      "name": "Unicode-LineBreak",
+      "version": "2019.001",
+      "url": "https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2019.001.tar.gz",
+      "archive": "Unicode-LineBreak-2019.001.tar.gz",
+      "sha256": "486762e4cacddcc77b13989f979a029f84630b8175e7fef17989e157d4b6318a",
+      "bytes": 312225
+    },
+    {
+      "name": "XML-LibXML",
+      "version": "2.0134",
+      "url": "https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/XML-LibXML-2.0134.tar.gz",
+      "archive": "XML-LibXML-2.0134.tar.gz",
+      "sha256": "f0bca4d0c2da35d879fee4cd13f352014186cedab27ab5e191f39b5d7d4f46cf",
+      "bytes": 470593
+    },
+    {
+      "name": "perl",
+      "version": "5.38.2",
+      "url": "https://www.cpan.org/src/5.0/perl-5.38.2.tar.gz",
+      "archive": "perl-5.38.2.tar.gz",
+      "sha256": "a0a31534451eb7b83c7d6594a497543a54d488bc90ca00f5e34762577f40655e",
+      "bytes": 21269496
+    },
+    {
+      "name": "biber",
+      "version": "2.22",
+      "url": "https://codeload.github.com/plk/biber/tar.gz/refs/tags/v2.22",
+      "archive": "biber-2.22.tar.gz",
+      "sha256": "82adcff9e71b4fc02ad6132f9ccd79137ad390e4d3392c7f681a85246c0cdc01",
+      "bytes": 1651013
+    },
+    {
+      "name": "libxml2",
+      "version": "2.9.14",
+      "url": "https://download.gnome.org/sources/libxml2/2.9/libxml2-2.9.14.tar.xz",
+      "archive": "libxml2-2.9.14.tar.xz",
+      "sha256": "60d74a257d1ccec0475e749cba2f21559e48139efba6ff28224357c7c798dfee",
+      "bytes": 3129968
+    },
+    {
+      "name": "emperl",
+      "version": "327812babf4e9be6332919295097573852889fb1",
+      "url": "https://codeload.github.com/haukex/emperl5/tar.gz/327812babf4e9be6332919295097573852889fb1",
+      "archive": "emperl-327812babf4e9be6332919295097573852889fb1.tar.gz",
+      "sha256": "1b2e3b8780f8fdf7174fbb00fb7103721a72a290474c86d53bf42b272c3ad33a",
+      "bytes": 19339824
+    }
+  ]
+}

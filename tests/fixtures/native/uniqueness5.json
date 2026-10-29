@@ -1,0 +1,4 @@
+{
+  "exitCode": 0,
+  "log": "INFO - Reading 'uniqueness5.bcf'\nINFO - Using all citekeys in bib section 0\nINFO - Processing section 0\nINFO - Looking for bibtex file 'uniqueness5.bib' for section 0\nINFO - LaTeX decoding ...\nINFO - Found BibTeX data source 'uniqueness5.bib'\nINFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'\nINFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'\nINFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'\nINFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'\nINFO - No sort tailoring available for locale 'en-US'\nINFO - Writing 'uniqueness5.bbl' with encoding 'UTF-8'\nINFO - Output to uniqueness5.bbl\n"
+}
